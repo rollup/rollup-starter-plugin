@@ -1,0 +1,36 @@
+{
+  "name": "rollup-starter-plugin",
+  "version": "1.0.0",
+  "description": "Rollup starter plugin",
+  "main": "dist/rollup-starter-plugin.cjs.js",
+  "module": "dist/rollup-starter-plugin.es.js",
+  "jsnext:main": "dist/rollup-starter-plugin.es.js",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "keywords": [
+    "rollup",
+    "rollup-plugin"
+  ],
+  "homepage": "https://github.com/rollup/rollup-starter-plugin",
+  "author": "Kenji Okamoto",
+  "license": "MIT",
+  "repository": "rollup/rollup-starter-plugin",
+  "bugs": {
+    "url": "https://github.com/rollup/rollup-starter-plugin/issues"
+  },
+  "scripts": {
+    "prebuild": "rimraf -rf dist/*",
+    "build": "rollup -c",
+    "test": "node test/test.js",
+    "pretest": "npm run build"
+  },
+  "dependencies": {
+    "rollup-pluginutils": "^2.8.1"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.3",
+    "rollup": "^1.16.2"
+  }
+}
