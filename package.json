@@ -4,9 +4,7 @@
   "description": "Rollup starter plugin",
   "main": "dist/rollup-starter-plugin.cjs.js",
   "module": "dist/rollup-starter-plugin.es.js",
-  "jsnext:main": "dist/rollup-starter-plugin.es.js",
   "files": [
-    "src",
     "dist"
   ],
   "keywords": [

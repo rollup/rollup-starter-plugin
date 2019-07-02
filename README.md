@@ -7,9 +7,8 @@ This repo contains bare-bones code for creating a [Rollup plugin](https://rollup
 Clone this repository and install its dependencies:
 
 ```bash
-mkdir rollup-starter-plugin
-cd rollup-starter-plugin
-npx degit https://github.com/rollup/rollup-starter-plugin
+npx degit https://github.com/rollup/rollup-starter-plugin my-plugin
+cd my-plugin
 npm install
 ```
 
