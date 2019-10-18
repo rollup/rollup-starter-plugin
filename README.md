@@ -2,6 +2,10 @@
 
 This repo contains bare-bones code for creating a [Rollup plugin](https://rollupjs.org/guide/en/#plugins).
 
+## Archived (Migration to Mono-Repo In-Process)
+
+This repository has been archived and is in the process of being migrated to a new monorepo. Please bear with us as we make this transition. More information to follow.
+
 ## Getting started
 
 Clone this repository and install its dependencies:
@@ -15,6 +19,7 @@ npm install
 1. Edit `package.json`
 
 2. Edit `src/index.js`
+
 - rename the `starterPlugin` function
 - change `name: 'starter-plugin'` to your plugin name
 - implement or delete the function stubs. See [hooks guide](https://rollupjs.org/guide/en#hooks)
