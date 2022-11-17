@@ -1,4 +1,4 @@
-const assert = require('assert');
-const rollupStarterPlugin = require('..');
+import assert from 'node:assert';
+import { starterPlugin } from 'rollup-starter-plugin';
 
-assert.strictEqual(rollupStarterPlugin().name, 'starter-plugin');
+assert.strictEqual(starterPlugin().name, 'starter-plugin');
