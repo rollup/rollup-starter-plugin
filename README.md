@@ -9,7 +9,7 @@ Clone this repository and install its dependencies:
 ```bash
 npx degit https://github.com/rollup/rollup-starter-plugin my-plugin
 cd my-plugin
-npm install
+pnpm install
 ```
 
 1. Edit `package.json`
